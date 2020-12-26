@@ -29,7 +29,7 @@ const PostDetail = ({ route }) => {
   }, []);
 
   const { file_gambar, judul, isi_post, nama, tgl_insert } = post;
-  console.log(post);
+
   return (
     <>
       <ScrollView style={styles.container}>

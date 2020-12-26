@@ -2,8 +2,8 @@ import React from 'react';
 
 import VerticalList from './lists/VerticalList';
 
-const TravelPosts = ({ data }) => {
+const LifePosts = ({ data }) => {
   return <VerticalList title="Life" data={data} />
 }
 
-export default TravelPosts;
+export default LifePosts;
